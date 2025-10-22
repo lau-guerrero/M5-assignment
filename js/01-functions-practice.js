@@ -8,7 +8,13 @@ function halfNumber(num) {
 halfNumber(5);
 
 //STEP 2
+function squareNumber(num) {
+  const result = num * num;
+  console.log(`The result of squaring the number ${num} is ${result}.`);
+  return result;
+}
 
+squareNumber(3);
 //STEP 3
 
 //STEP 4
