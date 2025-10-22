@@ -23,5 +23,10 @@ function percentOf(num1, num2) {
 }
 percentOf(2, 4)
 //STEP 4
-
+function findModulus(num1, num2) {
+  const result = num1 % num2;
+  console.log(`${result} is the modulus of ${num1} and ${num2}.`);
+  return result;
+}
+findModulus(10, 4)
 //STEP 5
